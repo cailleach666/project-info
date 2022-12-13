@@ -64,6 +64,25 @@
   --bs-body-bg: #fff;
 }
 
+.nav-left, .nav-right{
+  display: flex;
+  align-items: center;
+}
+.nav-left ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 25px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #8255ef;
+  padding: 5px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 *,
 *::before,
 *::after {
